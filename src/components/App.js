@@ -4,11 +4,12 @@ import '../styles/App.css';
 const App = () => {
   return (
     <div id="main">
-      <div data-ns-test attribute="project-name">name</div>
-      <div data-ns-test attribute="project-description">description</div>
+      <h1 data-ns-test attribute="project-name">name</h1>
+      <p data-ns-test attribute="project-description">description</p>
     </div>
   )
 }
 
 
 export default App;
+
